@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comments for SnetS@Rice	</title>
-	<atom:link href="https://syaruru-comm.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://syaruru-comm.github.io</link>
+	Comments on: Causality in distributed systems	</title>
+	<atom:link href="https://syaruru-comm.github.io/2022/04/27/causality-in-distributed-systems/feed/" rel="self" type="application/rss+xml" />
+	<link>https://syaruru-comm.github.io/2022/04/27/causality-in-distributed-systems/</link>
 	<description>Secure network system group</description>
-	<lastBuildDate>Thu, 28 Apr 2022 00:09:52 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 27 Apr 2022 21:43:46 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
