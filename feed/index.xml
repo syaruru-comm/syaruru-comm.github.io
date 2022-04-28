@@ -12,7 +12,7 @@
 	<atom:link href="https://syaruru-comm.github.io/feed/" rel="self" type="application/rss+xml" />
 	<link>https://syaruru-comm.github.io</link>
 	<description>Secure network system group</description>
-	<lastBuildDate>Wed, 27 Apr 2022 21:55:52 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 28 Apr 2022 00:32:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Low-latency data processing</title>
 		<link>https://syaruru-comm.github.io/2022/04/27/low-latency-data-processing/</link>
-					<comments>https://syaruru-comm.github.io/2022/04/27/low-latency-data-processing/#respond</comments>
 		
 		<dc:creator><![CDATA[tianyu]]></dc:creator>
 		<pubDate>Wed, 27 Apr 2022 21:44:13 +0000</pubDate>
@@ -31,18 +30,15 @@
 
 					<description><![CDATA[Big data is everywhere, and the underlying platforms must be able to support efficient data query and movement. This requires redesigning different layers of the data processing stack to extract ...]]></description>
 										<content:encoded><![CDATA[
-<p>Big data is everywhere, and the underlying platforms must be able to support efficient data query and movement. This requires redesigning different layers of the data processing stack to extract the best performance. Our projects leverage hardware technologies, such as RDMA and Intel MPK, and design novel abstractions to build better data processing systems. Projects include: <a href="https://dl.acm.org/doi/10.14778/3397230.3397249">DDCs</a>, <a href="https://www.cs.rice.edu/~angchen/papers/sigmod-2019.pdf">GraphRex</a>, <a href="https://www.cs.rice.edu/~angchen/papers/contra-nsdi-2020.pdf">Contra</a>, <a href="https://vldb.org/2022/">Lightning</a>, <a href="https://2022.sigmod.org/">TELEPORT</a>, <a href="https://www.usenix.org/conference/nsdi22">RDC</a>.</p>
+<p>Big data is everywhere, and the underlying platforms must be able to support efficient data query and movement. This requires redesigning different layers of the data processing stack to extract the best performance. Our projects leverage hardware technologies, such as RDMA and Intel MPK, and design novel abstractions to build better data processing systems. Projects include:&nbsp;<a href="https://dl.acm.org/doi/10.14778/3397230.3397249">DDCs</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/sigmod-2019.pdf">GraphRex</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/contra-nsdi-2020.pdf">Contra</a>,&nbsp;<a href="https://vldb.org/2022/">Lightning</a>,&nbsp;<a href="https://2022.sigmod.org/">TELEPORT</a>,&nbsp;<a href="https://www.usenix.org/conference/nsdi22">RDC</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://syaruru-comm.github.io/2022/04/27/low-latency-data-processing/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Causality in distributed systems</title>
 		<link>https://syaruru-comm.github.io/2022/04/27/causality-in-distributed-systems/</link>
-					<comments>https://syaruru-comm.github.io/2022/04/27/causality-in-distributed-systems/#respond</comments>
 		
 		<dc:creator><![CDATA[tianyu]]></dc:creator>
 		<pubDate>Wed, 27 Apr 2022 21:43:46 +0000</pubDate>
@@ -51,18 +47,15 @@
 
 					<description><![CDATA[Diagnosing problems in large systems has always been a challenging problem due to their complexity. Our project designs abstractions for tracking causal relationships between system states and their changes, and ...]]></description>
 										<content:encoded><![CDATA[
-<p>Diagnosing problems in large systems has always been a challenging problem due to their complexity. Our project designs abstractions for tracking causal relationships between system states and their changes, and uses them to enable provenance reasoning for end-to-end clarity. This has enabled fault prevention, root cause analysis and repair primitives for misconfigurations, performance issues, correlated failures, and in-network telemetry. See the individual projects: <a href="https://www.cs.rice.edu/~angchen/">Spidermon</a>, <a href="https://www.usenix.org/system/files/nsdi20-paper-zhai.pdf">CloudCanary</a>, <a href="https://www.cs.rice.edu/~angchen/papers/nsdi-2019.pdf">Zeno</a>, <a href="https://www.cs.rice.edu/~angchen/papers/sigcomm-2016.pdf">DiffProv</a>, <a href="https://www.cs.rice.edu/~angchen/papers/eurosys-2017.pdf">SPP</a>, <a href="https://www.cs.rice.edu/~angchen/papers/nsdi-2017.pdf">MetaProv</a>.</p>
+<p>Diagnosing problems in large systems has always been a challenging problem due to their complexity. Our project designs abstractions for tracking causal relationships between system states and their changes, and uses them to enable provenance reasoning for end-to-end clarity. This has enabled fault prevention, root cause analysis and repair primitives for misconfigurations, performance issues, correlated failures, and in-network telemetry. See the individual projects:&nbsp;<a href="https://www.cs.rice.edu/~angchen/">Spidermon</a>,&nbsp;<a href="https://www.usenix.org/system/files/nsdi20-paper-zhai.pdf">CloudCanary</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/nsdi-2019.pdf">Zeno</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/sigcomm-2016.pdf">DiffProv</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/eurosys-2017.pdf">SPP</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/nsdi-2017.pdf">MetaProv</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://syaruru-comm.github.io/2022/04/27/causality-in-distributed-systems/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>ML for systems software</title>
 		<link>https://syaruru-comm.github.io/2022/04/27/ml-for-systems-software/</link>
-					<comments>https://syaruru-comm.github.io/2022/04/27/ml-for-systems-software/#respond</comments>
 		
 		<dc:creator><![CDATA[tianyu]]></dc:creator>
 		<pubDate>Wed, 27 Apr 2022 21:43:08 +0000</pubDate>
@@ -71,18 +64,15 @@
 
 					<description><![CDATA[Systems software faces an inherent tension between generality and specialization. It must be sufficiently general-purpose in order to support diverse applications and increasingly smarter hardware, but the need for generality ...]]></description>
 										<content:encoded><![CDATA[
-<p>Systems software faces an inherent tension between generality and specialization. It must be sufficiently general-purpose in order to support diverse applications and increasingly smarter hardware, but the need for generality often precludes scenario-specific optimization. Our project navigates this tension by developing programmatic specialization to produce more efficient systems. The mechanism for reconfiguration is based upon a match/action pipeline, and the policies are derived via a data-driven approach or machine learning. See our <a href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s09-qiu.pdf">vision paper</a> and the <a href="https://dl.acm.org/doi/10.1145/3477132.3483583">Clara</a> project.</p>
+<p>Systems software faces an inherent tension between generality and specialization. It must be sufficiently general-purpose in order to support diverse applications and increasingly smarter hardware, but the need for generality often precludes scenario-specific optimization. Our project navigates this tension by developing programmatic specialization to produce more efficient systems. The mechanism for reconfiguration is based upon a match/action pipeline, and the policies are derived via a data-driven approach or machine learning. See our&nbsp;<a href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s09-qiu.pdf">vision paper</a>&nbsp;and the&nbsp;<a href="https://dl.acm.org/doi/10.1145/3477132.3483583">Clara</a>&nbsp;project.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://syaruru-comm.github.io/2022/04/27/ml-for-systems-software/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Programmable in-network security</title>
 		<link>https://syaruru-comm.github.io/2022/04/27/programmable-in-network-security/</link>
-					<comments>https://syaruru-comm.github.io/2022/04/27/programmable-in-network-security/#respond</comments>
 		
 		<dc:creator><![CDATA[tianyu]]></dc:creator>
 		<pubDate>Wed, 27 Apr 2022 21:42:37 +0000</pubDate>
@@ -91,11 +81,9 @@
 
 					<description><![CDATA[Our vision is to transform a programmable network into a “programmable defense infrastructure”, which supports security as naturally as it does routing. In this design, a switch not only forwards ...]]></description>
 										<content:encoded><![CDATA[
-<p>Our vision is to transform a programmable network into a “programmable defense infrastructure”, which supports security as naturally as it does routing. In this design, a switch not only forwards traffic, but also applies to it a wide range of defenses. The network not only routes traffic end-to-end, but also swaps defenses along the paths in and out as needed to mitigate attacks. Attacks with mixed vectors would trigger concurrent defenses, and attacks that rapidly change would be met with equally fast defense swapping. In its full force, the network would toggle a wide array of defenses rapidly on and off as traffic flows through, mitigating attacks in real time. See our <a href="https://www.cs.rice.edu/~angchen/papers/fastflex-hotnets2019.pdf">vision paper</a> and individual <a href="https://www.cs.rice.edu/~angchen/poise.html">projects</a>: <a href="https://www.cs.rice.edu/~angchen/papers/poise-sec2020.pdf">Poise</a>, <a href="https://www.cs.rice.edu/~angchen/papers/netwarden-sec2020.pdf">NetWarden</a>, <a href="https://www.cs.rice.edu/~angchen/papers/ripple-sec21.pdf">Ripple</a>, <a href="https://www.cs.rice.edu/~angchen/papers/p4wn-asplos21.pdf">P4wn</a>, <a href="https://www.cs.rice.edu/~angchen/papers/bedrock-sec22">Bedrock</a>.</p>
+<p>Our vision is to transform a programmable network into a “programmable defense infrastructure”, which supports security as naturally as it does routing. In this design, a switch not only forwards traffic, but also applies to it a wide range of defenses. The network not only routes traffic end-to-end, but also swaps defenses along the paths in and out as needed to mitigate attacks. Attacks with mixed vectors would trigger concurrent defenses, and attacks that rapidly change would be met with equally fast defense swapping. In its full force, the network would toggle a wide array of defenses rapidly on and off as traffic flows through, mitigating attacks in real time. See our&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/fastflex-hotnets2019.pdf">vision paper</a>&nbsp;and individual&nbsp;<a href="https://www.cs.rice.edu/~angchen/poise.html">projects</a>:&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/poise-sec2020.pdf">Poise</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/netwarden-sec2020.pdf">NetWarden</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/ripple-sec21.pdf">Ripple</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/p4wn-asplos21.pdf">P4wn</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/bedrock-sec22">Bedrock</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://syaruru-comm.github.io/2022/04/27/programmable-in-network-security/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
