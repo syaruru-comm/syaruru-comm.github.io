@@ -8,10 +8,10 @@
 	>
 
 <channel>
-	<title>SnetS@Rice</title>
+	<title>Secure network systems group</title>
 	<atom:link href="https://syaruru-comm.github.io/feed/" rel="self" type="application/rss+xml" />
 	<link>https://syaruru-comm.github.io</link>
-	<description>Secure network systems group</description>
+	<description>Security, Network, System</description>
 	<lastBuildDate>Thu, 28 Apr 2022 00:32:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<image>
+	<url>https://syaruru-comm.github.io/wp-content/uploads/2022/05/cropped-190308_Rice_Mechanical_Brand_Standards_Logos-2-32x32.png</url>
+	<title>Secure network systems group</title>
+	<link>https://syaruru-comm.github.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Low-latency data processing</title>
 		<link>https://syaruru-comm.github.io/2022/04/27/low-latency-data-processing/</link>
