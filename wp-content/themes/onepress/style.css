@@ -1279,7 +1279,7 @@ Footer widgets
   content: " ";
 }
 .page-header.page--cover .entry-title {
-  font-size: 9rem;
+  font-size: 3.125rem;
   font-weight: 800;
   color: #ffffff;
 }
@@ -2094,7 +2094,7 @@ section > .customize-partial-edit-shortcut button {
 }
 
 .section-meta {
-  background-color: #f8f9f9;
+  background-color: #ffffff;
 }
 
 .onepage-section {
@@ -2485,7 +2485,7 @@ section > .customize-partial-edit-shortcut button {
 }
 .hero-content-style1 h2 {
   color: #FFFFFF;
-  font-size: 35px;
+  font-size: 25px;
   letter-spacing: 2px;
   line-height: 1.3;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
@@ -2494,13 +2494,13 @@ section > .customize-partial-edit-shortcut button {
 }
 @media screen and (min-width: 720px) {
   .hero-content-style1 h2 {
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: 3px;
   }
 }
 @media screen and (min-width: 940px) {
   .hero-content-style1 h2 {
-    font-size: 75px;
+    font-size: 50px;
     letter-spacing: 4px;
   }
 }
