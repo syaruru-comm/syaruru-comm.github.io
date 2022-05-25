@@ -12,13 +12,13 @@
 	<atom:link href="https://syaruru-comm.github.io/feed/" rel="self" type="application/rss+xml" />
 	<link>https://syaruru-comm.github.io</link>
 	<description>Security, Network, System</description>
-	<lastBuildDate>Thu, 28 Apr 2022 00:32:34 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 May 2022 00:14:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.0</generator>
 
 <image>
 	<url>https://syaruru-comm.github.io/wp-content/uploads/2022/05/cropped-190308_Rice_Mechanical_Brand_Standards_Logos-2-32x32.png</url>
@@ -70,9 +70,13 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">https://syaruru-comm.github.io/?p=1584</guid>
 
-					<description><![CDATA[Systems software faces an inherent tension between generality and specialization. It must be sufficiently general-purpose in order to support diverse applications and increasingly smarter hardware, but the need for generality ...]]></description>
+					<description><![CDATA[Today’s systems are filled with diversifying applications. Theoretically, application performance could be optimized by leveraging target specific software frameworks and domain specific hardware. However, these attempts rely on domain expertise ...]]></description>
 										<content:encoded><![CDATA[
-<p>Systems software faces an inherent tension between generality and specialization. It must be sufficiently general-purpose in order to support diverse applications and increasingly smarter hardware, but the need for generality often precludes scenario-specific optimization. Our project navigates this tension by developing programmatic specialization to produce more efficient systems. The mechanism for reconfiguration is based upon a match/action pipeline, and the policies are derived via a data-driven approach or machine learning. See our&nbsp;<a href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s09-qiu.pdf">vision paper</a>&nbsp;and the&nbsp;<a href="https://dl.acm.org/doi/10.1145/3477132.3483583">Clara</a>&nbsp;project.</p>
+<figure class="wp-block-image size-large"><img width="1024" height="444" src="https://syaruru-comm.github.io/wp-content/uploads/2022/04/Web_MLSys-1024x444.jpg" alt="" class="wp-image-1692" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/04/Web_MLSys-1024x444.jpg 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/04/Web_MLSys-300x130.jpg 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/04/Web_MLSys-768x333.jpg 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/04/Web_MLSys-1536x666.jpg 1536w, https://syaruru-comm.github.io/wp-content/uploads/2022/04/Web_MLSys-2048x888.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Today’s systems are filled with diversifying applications. Theoretically, application performance could be optimized by leveraging target specific software frameworks and domain specific hardware. However, these attempts rely on domain expertise heavily: to start with, developers must get familiar with heterogeneous hardware architectures, compiler toolchains, and programming models. Moreover, they need to go through a tedious trial-and-error process and develop optimization insights based on empirical observations, which predicated on an intricate interaction between the applications and expected inputs. Those insights are then manually converted into optimization guidelines or hard-coded heuristics, which provides little guarantee on actual performance, and could not adapt to upcoming applications or hardware. We are pursuing a vision of learned optimizations, where we could automate much of this workflow. The learned strategies should specialize for a particular scenario in order to perform well, and these specializations should generalize for unseen scenarios that may arise. We aim to re-architect learned optimizations into system infrastructures, while providing strong security and interpretability guarantees. Specifically, We are exploring learned optimization for heterogeneous hardware (<a rel="noreferrer noopener" href="https://dl.acm.org/doi/10.1145/3477132.3483583" target="_blank">Clara</a>) as well as diversifying applications (<a rel="noreferrer noopener" href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s09-qiu.pdf" target="_blank">vision paper</a>).</p>
 ]]></content:encoded>
 					
 		
@@ -89,7 +93,75 @@
 
 					<description><![CDATA[Our vision is to transform a programmable network into a “programmable defense infrastructure”, which supports security as naturally as it does routing. In this design, a switch not only forwards ...]]></description>
 										<content:encoded><![CDATA[
-<p>Our vision is to transform a programmable network into a “programmable defense infrastructure”, which supports security as naturally as it does routing. In this design, a switch not only forwards traffic, but also applies to it a wide range of defenses. The network not only routes traffic end-to-end, but also swaps defenses along the paths in and out as needed to mitigate attacks. Attacks with mixed vectors would trigger concurrent defenses, and attacks that rapidly change would be met with equally fast defense swapping. In its full force, the network would toggle a wide array of defenses rapidly on and off as traffic flows through, mitigating attacks in real time. See our&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/fastflex-hotnets2019.pdf">vision paper</a>&nbsp;and individual&nbsp;<a href="https://www.cs.rice.edu/~angchen/poise.html">projects</a>:&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/poise-sec2020.pdf">Poise</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/netwarden-sec2020.pdf">NetWarden</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/ripple-sec21.pdf">Ripple</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/p4wn-asplos21.pdf">P4wn</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/papers/bedrock-sec22">Bedrock</a>.</p>
+<p>Our vision is to transform a programmable network into a “programmable defense infrastructure”, which supports security as naturally as it does routing. In this design, a switch not only forwards traffic, but also applies to it a wide range of defenses. The network not only routes traffic end-to-end, but also swaps defenses along the paths in and out as needed to mitigate attacks. Attacks with mixed vectors would trigger concurrent defenses, and attacks that rapidly change would be met with equally fast defense swapping. In its full force, the network would toggle a wide array of defenses rapidly on and off as traffic flows through, mitigating attacks in real time. See more details in our vision paper and the following individual projects.</p>
+
+
+
+<h3><strong>Mitigating Network Covert Channels while Preserving Performance (NetWarden)</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="427" src="https://syaruru-comm.github.io/wp-content/uploads/2022/05/netwarden-1024x427.png" alt="" class="wp-image-1698" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/05/netwarden-1024x427.png 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/netwarden-300x125.png 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/netwarden-768x320.png 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/netwarden.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>NetWarden is a novel defense platform for various covert timing and storage channels. Leveraging programmable switches, it can migrate covert channels at linespeed with little performance disturbance on TCP flows.  The key design is to use a set of performance boosting techniques to temporarily increase the performance of connections that have been affected by covert channel mitigation, with the ultimate goal of neutralizing the overall performance impact. NetWarden also uses a fastpath/slowpath architecture to combine the generality of software and the efficiency of hardware for effective defense. Our evaluation shows that NetWarden works smoothly with complex applications and workloads, and that it can mitigate covert timing and storage channels with little performance disturbance. [<a href="https://www.cs.rice.edu/~angchen/papers/netwarden-sec2020.pdf">PDF</a>] [<a href="https://github.com/jiarong0907/NetWarden">Github</a>]</p>
+
+
+
+<h3><strong>Ripple: A Programmable, Decentralized Link-Flooding Defense Against Adaptive Adversaries</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="427" src="https://syaruru-comm.github.io/wp-content/uploads/2022/05/ripple-1024x427.png" alt="" class="wp-image-1697" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/05/ripple-1024x427.png 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/ripple-300x125.png 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/ripple-768x320.png 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/ripple.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Link-flooding attacks (LFAs) aim to cut off an edge network from the Internet by congesting core network links. Such an adversary can further change the attack strategy dynamically (e.g., target links, traffic types) to evade mitigation and launch persistent attacks. Ripple is a programmable, decentralized link flooding defense against dynamic adversaries. It provides a declarative policy language for network operators to specify a range of defenses. Taking the policy as input, the Ripple compiler generates a distributed set of switch programs to extract a panoramic view of attack signals and act against them in a fully decentralized manner, enabling successive waves of defenses against fast-changing attacks. We show that Ripple has low overheads, and that it can effectively recover traffic throughput where SDN-based defenses fail. [<a href="https://www.cs.rice.edu/~angchen/papers/ripple-sec21.pdf">PDF</a>]</p>
+
+
+
+<h3><strong>Poseidon: Mitigating Volumetric DDoS Attacks with Programmable Switches</strong></h3>
+
+
+
+<p>@Ang to fill the content and thumbnail. [<a href="https://www.cs.rice.edu/~angchen/papers/ndss2020.pdf">PDF</a>]</p>
+
+
+
+<h3><strong>Bedrock: Programmable Network Support for Secure RDMA Systems</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="427" src="https://syaruru-comm.github.io/wp-content/uploads/2022/05/bedrock-1024x427.png" alt="" class="wp-image-1696" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/05/bedrock-1024x427.png 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/bedrock-300x125.png 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/bedrock-768x320.png 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/bedrock.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Recent findings have highlighted a host of vulnerabilities with RDMA, which give rise to attacks such as packet injection, denial of service, and side channel leakage. As the RDMA datapath bypasses CPU-based software processing, traditional defenses cannot be easily inserted without incurring performance penalty. Bedrock develops a security foundation for RDMA inside the network, leveraging programmable data planes in modern network hardware. It designs a range of defense primitives, including source authentication, access control, as well as monitoring and logging, to address RDMA-based attacks. Bedrock does not incur software overhead to the critical datapath, and delivers native RDMA performance in data transfers. Moreover, Bedrock operates transparently to legacy RDMA systems, without requiring RNIC, OS, or RDMA library changes. [<a href="https://www.cs.rice.edu/~angchen/">PDF</a>]</p>
+
+
+
+<h3><strong>Probabilistic Profiling of Stateful Data Planes for Adversarial Testing (P4wn)</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="427" src="https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4wn-1024x427.png" alt="" class="wp-image-1695" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4wn-1024x427.png 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4wn-300x125.png 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4wn-768x320.png 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4wn.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Programmable switches perform far more sophisticated processing than simply deciding a packet’s next hop (i.e., traditional forwarding). This presents challenges to existing network program profilers, which are developed primarily to handle stateless forwarding programs. We develop P4wn, a program profiler that can analyze program behaviors of stateful data plane systems; it captures the fact that these systems process packets differently based on program state, which in turn depends on the underlying stochastic traffic pattern. We showcase a concrete use case of P4wn in detail: adversarial testing. Unlike regular program testing, adversarial testing distinguishes and specifically stresses low-probability edge cases in a program. Our evaluation shows that P4wn can analyze complex programs that existing tools cannot handle, and that it can effectively identify edge-case traces. [<a href="https://www.cs.rice.edu/~angchen/papers/p4wn-asplos21.pdf">PDF</a>]</p>
+
+
+
+<h3><strong>Secure State Migration in the Data Plane (P4Sync)</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="427" src="https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4sync-1024x427.png" alt="" class="wp-image-1702" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4sync-1024x427.png 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4sync-300x125.png 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4sync-768x320.png 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/p4sync.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Programmable data planes enable a wide range of stateful packet processing at hardware speeds; however, protocols and systems that effectively manage data plane state remain underexplored. P4Sync is a protocol for secure state migration in programmable networks, which can serve as an important building block for state management tasks. It delivers data plane state from a source switch to a destination effectively without a software controller, while providing strong cryptographic guarantees on authenticity. P4Sync tackles several technical challenges, such as adapting memory copy techniques in VM migration, offloading per-packet security operations to the data plane, and amortizing heavyweight cryptographic overheads over a batch of packets. [<a href="https://jxing.me/pdf/p4sync-spin20.pdf">PDF</a>]</p>
 ]]></content:encoded>
 					
 		
@@ -104,9 +176,37 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">https://syaruru-comm.github.io/?p=1573</guid>
 
-					<description><![CDATA[&#160;Programmable network devices are reconfigurable without hardware upgrades. However, deploying new network features requires expensive maintenance procedures (e.g., to isolate, reflash, and redeploy network devices), which take careful planning over ...]]></description>
+					<description><![CDATA[Programmable network devices are reconfigurable without hardware upgrades. However, deploying new network features requires expensive maintenance procedures (e.g., to isolate, reflash, and redeploy network devices), which take careful planning over ...]]></description>
 										<content:encoded><![CDATA[
-<p>&nbsp;Programmable network devices are reconfigurable without hardware upgrades. However, deploying new network features requires expensive maintenance procedures (e.g., to isolate, reflash, and redeploy network devices), which take careful planning over weeks. Our project aims to accelerate the velocity of network change to a matter of seconds, by developing runtime programmable networks. We envision that the end-to-end network infrastructure, vertically from the host kernels to the NICs, and horizontally extending across switches to the other end of the network, can be reprogrammed on-the-fly without packet loss, and with strong consistency guarantees. See our&nbsp;<a href="https://conferences.sigcomm.org/hotnets/2021/program.html">vision paper</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/slides/flexnet.mp4">joint talk</a>, the&nbsp;<a href="https://www.usenix.org/conference/nsdi22">runtime programmable switch</a>&nbsp;project which implements runtime program reconfiguration for a 12.8Tbps ASIC, and&nbsp;<a href="https://www.usenix.org/conference/fast21/presentation/miller">high velocity kernel subsystems</a>.</p>
+<p>Programmable network devices are reconfigurable without hardware upgrades. However, deploying new network features requires expensive maintenance procedures (e.g., to isolate, reflash, and redeploy network devices), which take careful planning over weeks. Our project aims to accelerate the velocity of network change to a matter of seconds, by developing runtime programmable networks. We envision that the end-to-end network infrastructure, vertically from the host kernels to the NICs, and horizontally extending across switches to the other end of the network, can be reprogrammed on-the-fly without packet loss, and with strong consistency guarantees. See our&nbsp;<a href="https://conferences.sigcomm.org/hotnets/2021/program.html">vision paper</a>,&nbsp;<a href="https://www.cs.rice.edu/~angchen/slides/flexnet.mp4">joint talk</a>, the&nbsp;<a href="https://www.usenix.org/conference/nsdi22">runtime programmable switch</a>&nbsp;project which implements runtime program reconfiguration for a 12.8Tbps ASIC, and&nbsp;<a href="https://www.usenix.org/conference/fast21/presentation/miller">high velocity kernel subsystems</a>.</p>
+
+
+
+<h3><strong>Runtime Programmable Switches (FlexCore)</strong></h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="427" src="https://syaruru-comm.github.io/wp-content/uploads/2022/05/flexcore-1024x427.png" alt="" class="wp-image-1701" srcset="https://syaruru-comm.github.io/wp-content/uploads/2022/05/flexcore-1024x427.png 1024w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/flexcore-300x125.png 300w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/flexcore-768x320.png 768w, https://syaruru-comm.github.io/wp-content/uploads/2022/05/flexcore.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Programming the network to add, remove, and modify functions has been a longstanding goal in our community. The change of today’s programmable networks requires management operations such as draining and rerouting traffic from the target node, re-imaging the data plane, and redirecting traffic back to its original route. This project investigates design techniques to make future networks runtime programmable. FlexCore enables partial reconfiguration of switch data planes at runtime with minimum resource overheads, without service disruption, while processing packets with consistency guarantees. It involves design considerations in switch architectures, partial reconfiguration primitives, reconfiguration algorithms, as well as consistency guarantees. Our evaluation results demonstrate the feasibility and benefits of runtime programmable switches on commercial switch silicon and BMv2 switches. [<a rel="noreferrer noopener" href="https://jxing.me/pdf/flexcore-nsdi22.pdf" target="_blank">PDF</a>] [<a rel="noreferrer noopener" href="https://github.com/jiarong0907/FlexCore" target="_blank">Github</a>]</p>
+
+
+
+<h3><strong>High Velocity Kernel File Systems with Bento</strong></h3>
+
+
+
+<p>@Ang to fill in. [<a href="https://www.cs.rice.edu/~angchen/papers/bento-fast2021.pdf">PDF</a>]</p>
+
+
+
+<h3><strong>Toward Reconfigurable Kernel Datapaths with Learned Optimizations</strong></h3>
+
+
+
+<p>@Ang to fill in. [<a href="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s09-qiu.pdf" data-type="URL" data-id="https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s09-qiu.pdf">PDF</a>]</p>
 ]]></content:encoded>
 					
 		

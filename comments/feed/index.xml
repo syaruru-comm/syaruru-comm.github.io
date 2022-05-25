@@ -11,11 +11,11 @@
 	<atom:link href="https://syaruru-comm.github.io/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://syaruru-comm.github.io</link>
 	<description>Security, Network, System</description>
-	<lastBuildDate>Tue, 10 May 2022 03:18:08 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 May 2022 00:17:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.0</generator>
 </channel>
 </rss>
