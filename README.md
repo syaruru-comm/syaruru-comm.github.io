@@ -14,7 +14,7 @@ After the installment, you can now click on the "WordPress packaged by Bitnami M
 You can now see your site on your browser at "localhost/wordpress". The editting interface is at "localhost/wordpress/login", where you will need to fill in the username and password you set in the installment. (Sometimes there would be warnings, just try to restart WordPress)
 
 ## Import the Website Files
-Go to "Plugin"->"Add New", search and add "All-in-One WP Migration". Click on the newly added plugin in the left sidebar and import file from this repository. If there's an update to share, export it into new files.
+Go to "Plugin"->"Add New", search and add "All-in-One WP Migration". Click on the newly added plugin in the left sidebar and import file from (https://drive.google.com/file/d/1stw-45imuLGv903pIyXqX-JnqzhcWyrm/view?usp=sharing) (need permission from me). If there's an update to share, export it into new files.
 
 There's modifications over the original OnePress CSS files so that it is not a good idea to install OnePress and copy all the contents.
 
